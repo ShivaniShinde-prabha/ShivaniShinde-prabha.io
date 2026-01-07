@@ -1,0 +1,98 @@
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 40px 0;
+  background-color: #f4f6f8;
+  text-align: center;
+}
+
+/* Profile Card */
+.profile-card {
+  background-color: #ffffff;
+  width: 90%;
+  max-width: 420px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Avatar */
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 42px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+}
+
+/* Text */
+h1 {
+  margin: 10px 0 5px;
+}
+
+.title {
+  color: #666;
+  margin-bottom: 25px;
+}
+
+/* Sections */
+section {
+  margin-top: 25px;
+  text-align: left;
+}
+
+section h2 {
+  font-size: 18px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 6px;
+}
+
+/* Skills */
+.skills {
+  list-style: none;
+  padding: 0;
+}
+
+.skills li {
+  display: inline-block;
+  background-color: #e8f0fe;
+  padding: 6px 14px;
+  margin: 6px 5px 0 0;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  margin: 10px 6px 0 0;
+  padding: 10px 16px;
+  background-color: #007bff;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+  margin-top: 30px;
+  color: #777;
+  font-size: 14px;
+}
